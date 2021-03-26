@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Quiz!</title>
 </head>
 <body>
-    <h1> Coding Quiz! </h1>
-<!-- Will need to center h1 tag-->
-<!-- enter questions and choices of answers -->
-<!-- create buttons and id's to tag to css and java-->
+    <h1>Welcome to the Coding Quiz!</h1>
+    <h3>Timer: <span id="timerValue"></span></h3>
+    <h2 class="questionPrompt">Let's Get Started</h2>
+    <div class="answerChoices">
+        <ol>
+            <li><button class="answerChoice1 answer-button"></button></li>
+            <li><button class="answerChoice2 answer-button"></button></li>
+            <li><button class="answerChoice3 answer-button"></button></li>
+            <li><button class="answerChoice4 answer-button"></button></li>
+        </ol>
+    </div>
+
+    <button id="commenceButton">Let the Quizzing Commence!</button>
+    
+    <script src="./javascript.js"></script>
 </body>
 </html>

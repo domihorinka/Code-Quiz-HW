@@ -1,3 +1,17 @@
-/* style h1 tag
-/* style answer choices (purple) center
+.answer-button {
+  background-color: rgb(95, 19, 95);
+  color: white;
+  padding: 2px;
+  margin: 5px;
+  font-size: 30px;
+}
 
+.answer-button:hover {
+  background-color: burlywood;
+  padding: 2px;
+  margin: 5px;
+}
+
+#commenceButton {
+  font-size: 25px;
+}
